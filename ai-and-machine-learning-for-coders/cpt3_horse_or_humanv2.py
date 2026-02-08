@@ -66,7 +66,7 @@ history = model.fit(train_generator,
                     epochs = 5)
 
 # Predict images.
-test_path = '/home/ddopessoa/Documents/aimlc/test'
+test_path = './test'
 test_files = os.listdir(test_path)
 
 for test_file in test_files:
